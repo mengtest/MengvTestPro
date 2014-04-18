@@ -5,6 +5,6 @@ Specification-Title:
 Specification-Version: 0.0.1-SNAPSHOT
 Implementation-Title: 
 Implementation-Version: 0.0.1-SNAPSHOT
-Implementation-Vendor-Id: org.meng.mengvtestpro
+Implementation-Vendor-Id: org.meng.MengvTestPro
 Created-By: Maven Integration for Eclipse
 

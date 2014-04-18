@@ -1,6 +1,6 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>org.meng.mengvtestpro</groupId>
+  <groupId>org.meng.MengvTestPro</groupId>
   <artifactId>MengvTestPro</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
@@ -289,7 +289,7 @@
 
   </dependencies>
   <build>
-  	<finalName>mengvtestpro</finalName>
+  	<finalName>MengvTestPro</finalName>
     <plugins>
       <!-- 编译的时候使用JDK7和UTF8编码 -->
       <plugin>
@@ -337,7 +337,7 @@
 					<!-- 指定项目路径(如果不写，则按照pom.xml里面的artifactId属性值配置)，访问路径为http://localhost:9999/sshe -->
 					<!-- 配置<contextPath>/sshe</contextPath>，则访问路径为http://localhost:9999/sshe -->
 					<!-- 配置<contextPath>/</contextPath>，则访问路径为http://localhost:9999 -->
-					<contextPath>/MengMTestPro</contextPath>
+					<contextPath>/MengvTestPro</contextPath>
 					<!-- 更改jetty默认webdefault.xml文件，主要修改了useFileMappedBuffer属性为false，使其不锁定静态文件 -->
 					<!-- 此文件在C盘\用户目录\.m2\repository\org\eclipse\jetty\jetty-webapp\9.1.0.RC1\找到jar包，打开jar包目录org\eclipse\jetty\webapp\目录中 -->
 					<defaultsDescriptor>webdefault.xml</defaultsDescriptor>

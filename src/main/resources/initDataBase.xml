@@ -109,7 +109,7 @@
 		<resource id="druid" name="数据源监控" url="/druid" description="监控数据源" seq="2" iconCls="ext-icon-monitor_link" pid="xtjk">
 			<resourcetype id="0" name="菜单" />
 		</resource>
-		<resource id="actionConfigBrowser" name="Action映射监控" url="/config-browser/showConstants.td" description="Action映射情况监控" seq="3" iconCls="ext-icon-monitor_lightning" pid="xtjk">
+		<resource id="actionConfigBrowser" name="Action映射监控" url="/config-browser/showConstants.sy" description="Action映射情况监控" seq="3" iconCls="ext-icon-monitor_lightning" pid="xtjk">
 			<resourcetype id="0" name="菜单" />
 		</resource>
 		<resource id="online" name="用户登录历史监控" url="/securityjsp/base/tonline.jsp" description="监控用户登录、注销" seq="4" iconCls="ext-icon-chart_line" pid="xtjk">

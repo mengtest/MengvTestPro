@@ -33,7 +33,6 @@ public class Tuser implements java.io.Serializable {
 
 	// Fields
 	private String ip;// 此属性不存数据库，虚拟属性
-	private String oldpwd;// 此属性不存数据库，虚拟属性
 
 	private String id;
 	private Integer age;
@@ -208,15 +207,6 @@ public class Tuser implements java.io.Serializable {
 
 	public void setIp(String ip) {
 		this.ip = ip;
-	}
-
-	@Transient
-	public String getOldpwd() {
-		return oldpwd;
-	}
-
-	public void setOldpwd(String oldpwd) {
-		this.oldpwd = oldpwd;
 	}
 
 }

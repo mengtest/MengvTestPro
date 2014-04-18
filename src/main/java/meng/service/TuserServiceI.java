@@ -6,7 +6,7 @@ import meng.model.base.Tuser;
 import meng.service.base.BaseServiceI;
 
 public interface TuserServiceI extends BaseServiceI<Tuser>{
-
+	
 	/**
 	 * 修改用户角色
 	 * 
