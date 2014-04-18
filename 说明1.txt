@@ -1,0 +1,48 @@
+user 中多增加：
+private String ip;// 此属性不存数据库，虚拟属性
+@Transient
+public String getIp() {
+	return ip;
+}
+
+public void setIp(String ip) {
+	this.ip = ip;
+}
+
+Organization中增加：
+	import javax.persistence.Transient;
+	
+	private String pid;// 虚拟属性，用于获得当前机构的父机构ID
+	
+	/**
+	 * 用于业务逻辑的字段，注解@Transient代表不需要持久化到数据库中
+	 * 
+	 * @return
+	 */
+	@Transient
+	public String getPid() {
+		if (torganization != null && !StringUtils.isBlank(torganization.getId())) {
+			return torganization.getId();
+		}
+		return pid;
+	}
+
+	public void setPid(String pid) {
+		this.pid = pid;
+	}
+
+Resource中增加
+	private String iconCls;
+
+	private String pid;// 虚拟属性，用于获得当前资源的父资源ID
+	@Transient
+	public String getPid() {
+		if (tresource != null && !StringUtils.isBlank(tresource.getId())) {
+			return tresource.getId();
+		}
+		return pid;
+	}
+
+	public void setPid(String pid) {
+		this.pid = pid;
+	}

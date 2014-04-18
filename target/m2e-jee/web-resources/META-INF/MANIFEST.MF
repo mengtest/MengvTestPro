@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: dell
+Build-Jdk: 1.6.0_13
+Specification-Title: 
+Specification-Version: 0.0.1-SNAPSHOT
+Implementation-Title: 
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: org.meng.mengvtestpro
+Created-By: Maven Integration for Eclipse
+

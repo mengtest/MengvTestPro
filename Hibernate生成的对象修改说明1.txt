@@ -1,0 +1,26 @@
+1、表格：（默认有：catalog = ""）
+@Table(name = "tuser", schema = "")
+@DynamicInsert(true)
+@DynamicUpdate(true)
+
+2、多对多或者一对多的时候：两边都用   （默认是一边维护的mappedBy =）
+@JoinTable
+3、id：
+		if (!StringUtils.isBlank(this.id)) {
+			return this.id;
+		}
+		return UUID.randomUUID().toString();
+4、时间：
+import java.util.Date;
+
+	@Temporal(TemporalType.TIMESTAMP)
+	@Column(name = "CREATEDATETIME", length = 7)
+	public Date getCreatedatetime() {
+		if(this.createdatetime != null){
+			return this.createdatetime;
+		}
+		return new Date();
+	}
+	
+5、可以去掉
+ cascade = CascadeType.ALL

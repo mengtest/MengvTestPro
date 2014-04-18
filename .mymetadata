@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="MengvTestPro"
+  id="myeclipse.1394077322833"
+  context-root="/MengvTestPro"
+  j2ee-spec="1.7"
+  archive="MengvTestPro.war">
+  <attributes>
+    <attribute name="webrootdir" value="src/main/webapp" />
+  </attributes>
+</project-module>
+
