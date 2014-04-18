@@ -3,7 +3,7 @@
   type="WEB"
   name="MengvTestPro"
   id="myeclipse.1394077322833"
-  context-root="/MengvTestPro"
+  context-root="/MyMavenTestPro"
   j2ee-spec="1.7"
   archive="MengvTestPro.war">
   <attributes>
